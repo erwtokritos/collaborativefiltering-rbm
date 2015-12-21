@@ -11,4 +11,5 @@ The network is trained by optimizing the Contrastive Divergence (CD). The main c
 * predict(String userId, String itemId, PredictionType predictionType) : It predicts the rating for a (user, item) pair. PredictionType can be either MAX (get max prob choice) or MEAN (weighted mean of all ratings)
 
 
-
+I have used this algorithm in my paper [Trust Inference in Online Social Networks](http://dl.acm.org/citation.cfm?id=2809418). If you find this contribution useful, I would appreciate it if you cited my paper :
+[Athanasios Papaoikonomou, Magdalini Kardara, and Theodora Varvarigou. 2015. Trust Inference in Online Social Networks. In Proceedings of the 2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2015 (ASONAM '15), Jian Pei, Fabrizio Silvestri, and Jie Tang (Eds.). ACM, New York, NY, USA, 600-604. DOI=http://dx.doi.org/10.1145/2808797.2809418]
