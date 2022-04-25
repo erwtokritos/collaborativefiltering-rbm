@@ -1,5 +1,5 @@
 # collaborativefiltering-rbm
-This is a Java implementation of the paper [Restricted Boltzmann Machines for Collaborative Filtering](http://www.machinelearning.org/proceedings/icml2007/papers/407.pdf) by Salakhutdinov et al.  The authors propose a two-layer undirected graphical model that is suited for collaborative filtering tasks. More specifically, a different RBM is used for each user under the following constraints: 
+This is a Java implementation of the paper [Restricted Boltzmann Machines for Collaborative Filtering](https://www.cs.toronto.edu/~rsalakhu/papers/rbmcf.pdf) by Salakhutdinov et al.  The authors propose a two-layer undirected graphical model that is suited for collaborative filtering tasks. More specifically, a different RBM is used for each user under the following constraints: 
 
 1. Every RBM has the same number of hidden units, but an RBM has active softmax visible units only for the items rated by that user
 2. The connection weights (and biases) between the softmax visible layer and the hidden layer are tied i.e. if two users have rated the same movie, their two RBM's must use the same weights between the softmax unit for that movie and the hidden units
